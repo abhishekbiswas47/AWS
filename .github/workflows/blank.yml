@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=devce-width">
+
+<title>Recipe</title>
+
+</head>
+
+<body>
+
+<h1>Crispy Dosa</h1> <!--Name of the dish-->
+
+<em>
+
+<h2>Ingredients</h2>
+
+</em>
+
+<ol> <!--Name of all the ingredients needed for the dish-->
+
+<strong>
+
+<li>Urad Daal</li>
+
+<li>Rice</li>
+
+<li>Potatoes</li>
+
+<li>Onions</li>
+
+<li>Cooking oil</li>
+
+<li>Spices</li>
+
+</strong>
+
+</ol>
+
+<em>
+
+<h2>Process</h2>
+
+</em>
+
+<ul> <!--The process for making the dish is given below-->
+
+<strong>
+
+<li>Wash rice and urad daal. Add fenugreek seeds to the mixture and fill enough water in the rice-daal bowl to cover them. Soak overnight.</li>
+
+<li>The next morning, drain all the water from the rice ]and urad daal and put it in a food processor and grind - adding little water if necessary - to make a smooth paste.</li>
+
+<li>After grinding the rice-daal, mix water to make a batter. The consistency of the batter should be such that it thickly coats a spoon dipped in it.</li>
+
+<li>Now add salt to taste and keep the Dosa batter aside in a warm, dark spot, covered, for 6-8 hours. This will allow the batter to ferment and ready to make Dosas.</li>
+
+<li>Place the pan on a gas-stove and add little cooking oil to grease it. Now turn on the flame at midium high.</li>
+
+<li>Fill a ladle upto 3/4 level with the batter. Gently pour the batter on the centre of the pan - just as we do for a pancake. Spread the batter in circular motions to form a pancke of roughly 8" diameter.</li>
+
+<li>After spreading the batter out on the pan, drizzle the oil all over he surface of the Dosa and also around its edges. Now hold the pan by its handle, lift up and swirl it so as to mke the drizzled oil sprad all over the Dosa.</li>
+
+<li>When the upper surface begins to look cooked, add some boiled potatoes and fried onions on the cookd surface and fold it in half and allow to cook for 30 seconds. The crispy Dosa is ready to serve with sambar and coconut chutney.</li> 
+
+</ul>
+
+</strong>
+
+<em>
+
+<h3>THANK YOU</h3>
+
+</em>
+
+</body>
+
+</html>
