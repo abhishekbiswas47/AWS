@@ -208,3 +208,12 @@ resource "null_resource" "null1"  {
   }
 }
 ```
+### Here are few screenshots of my task and its output:-
+![alt text](https://github.com/abiswah/AWS/blob/master/image_7808d6e1-e3d6-4eb8-9f21-81f492c3f81220201018_161414.jpg)
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
