@@ -210,10 +210,12 @@ resource "null_resource" "null1"  {
 ```
 ### Here are few screenshots of my task and its output:-
 ![alt text](https://github.com/abiswah/AWS/blob/master/image_7808d6e1-e3d6-4eb8-9f21-81f492c3f81220201018_161414.jpg)
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
+![alt text](https://github.com/abiswah/AWS/blob/master/image_52924011-ebfa-48d4-8630-0920e357a7dd20201018_161420.jpg)
+![alt text](https://github.com/abiswah/AWS/blob/master/image_2942cad9-7f66-4e60-9a60-5170fa70dd1520201018_161433.jpg)
+![alt text](https://github.com/abiswah/AWS/blob/master/image_920f1ed2-f1d0-4022-9255-f8b8bc9f27ea20201018_161435.jpg)
+![alt text](https://github.com/abiswah/AWS/blob/master/image_6caf366a-0156-40d1-b22c-8c7ce778317f20201018_161437.jpg)
+![alt text](https://github.com/abiswah/AWS/blob/master/image_7fd42a92-dc00-46dd-b09d-774d1f6ef1ba20201018_161440.jpg)
+![alt text](https://github.com/abiswah/AWS/blob/master/image_939fd662-9d42-4e56-b286-d74225510df720201018_161439.jpg)
+![alt text](https://github.com/abiswah/AWS/blob/master/image_2efe19c9-0435-45f8-9c7e-af907d348aae20201018_161442.jpg)
+
+### Thanks for reading.....
