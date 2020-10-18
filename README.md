@@ -92,3 +92,24 @@ output "o4" {
 	value = aws_instance.myweb.availability_zone
 }
 ```
+#### Step 4.
+Next, i created an S3 bucket and also manipulated the terraform to save my bucket name in my local system inside my working repository. This is for the time when I destroy the infrastructure created by, it will ask for bucket name which I have made dynamic as we need a unique name for our bucket as S3 is a global service.
+```
+resource "aws_s3_bucket" "myuniquebucket1227" {
+  bucket = "myuniquebucket1227" 
+  acl    = "public-read"
+  tags = {
+    Name        = "uniquebucket1227" 
+  }
+  versioning {
+	enabled =true
+  }
+}
+
+resource "aws_s3_bucket_object" "s3object" {
+  bucket = "${aws_s3_bucket.myuniquebucket1227.id}"
+  key    = "1076883.jpg"
+  source = "C:/Users/Abhishek/Downloads/1076883.jpg"
+}
+```
+#### Step 5.
