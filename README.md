@@ -12,9 +12,9 @@
 ### Following the given steps anyone can achieve the desired results:-
 #### Step1.
 In the first step you have to declare your provider and its necessary login credentials, example:-
-'''
+```
 provider "aws" {
   region     = "ap-south-1"
   profile    = "abhi"
 }
-'''
+```
