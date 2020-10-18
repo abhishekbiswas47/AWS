@@ -164,4 +164,47 @@ resource "aws_cloudfront_distribution" "imagecf" {
 }
 ```
 #### Step 6.
- 
+In this step we are creating an extra EBS (Elastic Block Storage) volume and attaching this extra created volume to our instances so that it can be accessed by us from instance. 
+```
+resource "aws_ebs_volume" "ebs_vol" {
+  availability_zone = aws_instance.myweb.availability_zone
+  size              = 1
+
+  tags = {
+    Name = "mypendrive"
+  }
+}
+
+resource "aws_volume_attachment" "EBS_attachment" {
+  device_name = "/dev/sdf"
+  volume_id   = aws_ebs_volume.ebs_vol.id
+  instance_id = aws_instance.myweb.id
+  force_detach = true
+}
+
+output "myos_ip" {
+  value = aws_instance.myweb.public_ip
+}
+
+resource "null_resource" "null1"  {
+
+  depends_on = [
+    aws_volume_attachment.EBS_attachment,
+  ]
+  connection {
+    type     = "ssh"
+    user     = "ec2-user"
+    private_key = file("C:/Users/Abhishek/Downloads/abhishek.pem")
+    host     = aws_instance.myweb.public_ip
+  }
+
+  provisioner "remote-exec" {
+    inline = [
+      "sudo mkfs.ext4  /dev/xvdf",
+      "sudo mount  /dev/xvdf  /var/www/html",
+      "sudo rm -rf /var/www/html/*",
+      "sudo git clone https://github.com/abiswah/AWS/blob/master/Firstproject.html"
+    ]
+  }
+}
+```
